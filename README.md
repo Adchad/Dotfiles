@@ -5,7 +5,8 @@
 - WM: i3 (i3-gaps)
 - Status Bar: i3status
 - Terminal Emulator: kitty
-- Shell : zsh (with spaceship promt https://denysdovhan.com/spaceship-prompt/)
+- Shell : zsh 
+- Prompt : Spaceship-Prompt (https://github.com/denysdovhan/spaceship-prompt)
 - Theme: Dracula (https://draculatheme.com/)
 - Menu : Rofi
 
