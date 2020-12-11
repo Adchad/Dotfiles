@@ -14,3 +14,14 @@
 ### Screenshots
 
 ![](/Documents/Images/workspace_screenshot.png "Workspace")
+![](/Documents/Images/workspace_screenshot2.png "Vim")
+
+### Vim
+#### Plugins
+- Syntax Completion: YouCompleteMe
+- File Tree: NERDTree
+- Status Line: Vim-Airline
+- Snippets: UltiSnips
+
+#### Sessions
+Vim automatically launches last previous session when session is closed with Ctrl+q
