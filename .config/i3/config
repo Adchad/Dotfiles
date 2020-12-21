@@ -219,7 +219,7 @@ bindsym $mod+b exec Thunar
 exec --no-startup-id hsetroot -solid '#282a36' 
 #exec_always --no-startup-id picom --experimental-backends
 
-exec --no-startup-id xmodmap ~/.Xmodmap
+exec  xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
 for_window [class="Thunar"] floating enable
 for_window [class="nm-connection-editor"] floating enable
