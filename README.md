@@ -16,10 +16,11 @@
 ![](/Documents/Images/workspace_screenshot.png "Workspace")
 ![](/Documents/Images/workspace_screenshot2.png "Vim")
 
-### Vim
+### Vim (nvim)
 #### Plugins
-- Syntax Completion: YouCompleteMe
+- Syntax Completion: COC
 - File Tree: NERDTree
+- Tagbar
 - Status Line: Vim-Airline
 - Snippets: UltiSnips
 
