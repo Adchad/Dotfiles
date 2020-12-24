@@ -15,6 +15,7 @@
 
 ![](/Documents/Images/workspace_screenshot.png "Workspace")
 ![](/Documents/Images/workspace_screenshot2.png "Vim")
+![](/Documents/Images/workspace_screenshot3.png "Picom")
 
 ### Vim (nvim)
 #### Plugins
