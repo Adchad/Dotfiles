@@ -49,4 +49,8 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias vimconf="nvim ~/.config/nvim/init.vim"
 
+alias i3conf="nvim ~/.config/i3/config"
+
 alias nb="jupyter-notebook"
+
+alias ns="newsboat"

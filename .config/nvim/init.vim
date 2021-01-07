@@ -21,6 +21,8 @@ Plug 'git://git.wincent.com/command-t.git'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim',{'name':'dracula'}
+
+Plug 'tomasr/molokai'
 " git repos on your local machine (i.e. when working on your own plugin)
 " Pass the path to set the runtimepath properly.
 Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -46,6 +48,8 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'sheerun/vim-polyglot'
 
+
+
 "Plug 'ctrlpvim/ctrlp.vim'
 
 "Plugin 'jistr/vim-nerdtree-tabs'
@@ -64,7 +68,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-
+set clipboard=unnamed
 filetype on
 set mouse=a
 
@@ -77,12 +81,14 @@ set smartcase
 set noswapfile
 set incsearch
 set smartindent
-set nu rnu
+set nu 
 
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
 
-vnoremap <C-c> "+y
-map <C-b> "+P
+
+vnoremap <leader>y "+y
+map <leader>p "+P
+
 map <C-s> :update <cr>
 inoremap <C-s> <Esc>:update <cr>
 "
@@ -199,4 +205,4 @@ map <Leader>v :NERDTreeFind<CR>
 
 let NERDTreeCustomOpenArgs = {'file':{'where':'t', 'keepopen':1, 'stay':1}}
 
-
+set colorcolumn=120
