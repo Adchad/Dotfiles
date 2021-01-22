@@ -1,4 +1,3 @@
-set nocompatible              " be iMproved, required	
 filetype off                  " required
 "set encoding=UTF-8
 " set the runtime path to include Vundle and initialize
@@ -23,6 +22,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dracula/vim',{'name':'dracula'}
 
 Plug 'tomasr/molokai'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 " git repos on your local machine (i.e. when working on your own plugin)
 " Pass the path to set the runtimepath properly.
 Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -45,11 +45,10 @@ Plug 'preservim/nerdtree'
 
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-
 Plug 'sheerun/vim-polyglot'
 
-
-
+Plug 'kien/ctrlp.vim'
+Plug 'ap/vim-css-color'
 "Plug 'ctrlpvim/ctrlp.vim'
 
 "Plugin 'jistr/vim-nerdtree-tabs'
@@ -81,7 +80,7 @@ set smartcase
 set noswapfile
 set incsearch
 set smartindent
-set nu 
+set nu rnu
 
 "set clipboard=unnamedplus
 
@@ -130,7 +129,10 @@ noremap <leader>_ 8gt
 noremap <leader>ç 9gt
 noremap <leader>à :tablast<cr>
 
-
+noremap <leader>h :wincmd h<CR>
+noremap <leader>j :wincmd j<CR>
+noremap <leader>k :wincmd k<CR>
+noremap <leader>l :wincmd l<CR>
 
 map <silent> <C-q> :NERDTreeClose <bar> mks! ~/.config/nvim/sessions/current.vim <bar>wqa<cr>
 
@@ -148,10 +150,10 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | endif
-
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | endif
+"
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 
 let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
@@ -184,11 +186,11 @@ highlight VertSplit cterm=NONE
 
 
 "unmap <C-w>
-map <silent> <C-w> :bd!<cr>
+map <silent> <C-c> :bd!<cr>
 
 let NERDTreeMapOpenInTabSilent='<tab>'
 
-nmap <silent> <C-t> :TagbarToggle<CR>
+"nmap <silent> <C-t> :TagbarToggle<CR>
 
 " highlight ColorColumn ctermbg=5
 "ColorColumn    xxx term=reverse ctermbg=0 guibg=#2C2E3E
@@ -203,6 +205,29 @@ let NERDTreeAutoDeleteBuffer = 1
 
 map <Leader>v :NERDTreeFind<CR>
 
-let NERDTreeCustomOpenArgs = {'file':{'where':'t', 'keepopen':1, 'stay':1}}
+"let NERDTreeCustomOpenArgs = {'file':{'where':'o', 'keepopen':1, 'stay':1}}
 
-set colorcolumn=120
+set colorcolumn=80
+
+nnoremap <leader>w :set wrap!<CR>
+
+
+
+tnoremap <Esc> <C-\><C-n>
+
+tnoremap <expr> <C-R> '<C-\><C-N>"'.nr2char(getchar()).'pi'
+
+tnoremap <A-h> <C-\><C-N><C-w>h
+tnoremap <A-j> <C-\><C-N><C-w>j
+tnoremap <A-k> <C-\><C-N><C-w>k
+tnoremap <A-l> <C-\><C-N><C-w>l
+inoremap <A-h> <C-\><C-N><C-w>h
+inoremap <A-j> <C-\><C-N><C-w>j
+inoremap <A-k> <C-\><C-N><C-w>k
+inoremap <A-l> <C-\><C-N><C-w>l
+nnoremap <A-h> <C-w>h
+nnoremap <A-j> <C-w>j
+nnoremap <A-k> <C-w>k
+nnoremap <A-l> <C-w>l
+
+

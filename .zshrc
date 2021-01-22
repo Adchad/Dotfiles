@@ -7,9 +7,15 @@ fi
 #  source /usr/share/zsh/manjaro-zsh-prompt
 #fi
 
+export ZSH="/home/adam/.oh-my-zsh"
 
 autoload -U promptinit; promptinit
 prompt spaceship
+
+
+autoload -U compinit
+zstyle ':completion:*' menu select
+compinit
 
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
@@ -40,6 +46,7 @@ export DEVKITPPC=/opt/devkitpro/devkitPPC
 export PATH="$HOME/bin:$PATH"
 
 alias z='zathura'
+
 alias nb='jupyter-notebook'
 
 alias vim="nvim"
@@ -54,3 +61,14 @@ alias i3conf="nvim ~/.config/i3/config"
 alias nb="jupyter-notebook"
 
 alias ns="newsboat"
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
+
+source $ZSH/oh-my-zsh.sh
+
+plugins=(
+  git
+  zsh-autosuggestions
+)
+

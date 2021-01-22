@@ -43,7 +43,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 10-
 floating_modifier $mod
 
 
-bindsym $mod+Return exec kitty 
+bindsym $mod+Return exec kitty --title "kitty"
 #Note : mod+Shift+Return opens kitty in the cwd!!!
 
 # kill focused window
