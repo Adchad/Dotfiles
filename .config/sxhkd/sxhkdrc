@@ -1,0 +1,26 @@
+XF86AudioRaiseVolume 
+  pactl set-sink-volume @DEFAULT_SINK@ +5% && pkill -RTMIN+5 dwmblocks
+XF86AudioLowerVolume
+  pactl set-sink-volume @DEFAULT_SINK@ -5% && pkill -RTMIN+5 dwmblocks
+XF86AudioMute
+  pactl set-sink-mute @DEFAULT_SINK@ toggle && pkill -RTMIN+5 dwmblocks
+XF86AudioMicMute  
+  pactl set-source-mute @DEFAULT_SOURCE@ toggle && pkill -RTMIN+5 dwmblocks
+                                                                        
+XF86MonBrightnessUp  
+  brightnessctl s +10            
+XF86MonBrightnessDown  
+  brightnessctl s 10- 
+
+super + w
+  brave
+
+super + b
+  Thunar
+
+super + shift + z
+  exec blurlock
+  #i3lock -c 000000
+
+super + p
+  rofi -modi "drun" -show drun  -location 1 -xoffset 30 -yoffset 50 
