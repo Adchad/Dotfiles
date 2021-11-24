@@ -32,9 +32,10 @@ color article white default bold
 browser linkhandler
 macro , open-in-browser
 macro a set browser "tsp youtube-dl -o '~/Movies/%(title)s-%(id)s.%(ext)s' %u && notify-send Downloading  %u && tsp-notify" ; open-in-browser ; set browser brave
-macro v set browser "mpv --ytdl-format=worst %u" ; open-in-browser ; set browser brave
+macro v set browser "mpv --ytdl-format=best %u" ; open-in-browser ; set browser brave
 macro c set browser "xsel -b <<<" ; open-in-browser ; set browser brave
 macro C set browser "youtube-viewer --comments=%u" ; open-in-browser ; set browser brave
+macro i set browser "sxiv_url %u" ; open-in-browser ; set browser brave
 
 highlight all "---.*---" yellow
 highlight feedlist ".*(0/0))" black

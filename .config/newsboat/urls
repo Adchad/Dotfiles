@@ -1,38 +1,52 @@
 Youtube
 "query:Subscriptions:tags # \"Youtube\"" "Youtube"
+
+Twitch
+file:///home/adam/.config/newsboat/custom_urls/twitch.xml "Twitch"  "~Twitch"
+
 Favorites
 https://www.youtube.com/feeds/videos.xml?user=iProjectAtlas "~Aba and Preach" "Youtube"
 https://odysee.com/$/rss/@DistroTube:2 "~DistroTube" "Youtube"
-https://videos.lukesmith.xyz/feeds/videos.xml?sort=-publishedAt "~Luke Smith" "Youtube"
+https://odysee.com/$/rss/@Luke:7 "~Luke Smith" "Youtube"
 https://www.youtube.com/feeds/videos.xml?user=Vsauce "~Vsauce" "Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCj1VqrHhDte54oLgPG4xpuQ "~Stuff Made Here" "Youtube" 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCLtREJY21xRfCuEKvdki1Kw "~H3 Podcast" "Youtube"
 https://odysee.com/$/rss/@WolfgangsChannel:d "~Wolfgang's Channel" "Youtube"
 https://odysee.com/$/rss/@BrodieRobertson:5 "~BrodieRobertson" "Youtube"
+
+Playlists
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH "~Build a 65c02-based computer from scratch" "Playlist"
+file:///home/adam/.config/newsboat/custom_urls/CS134_OS.xml "Playlist"  "~CS 134: Operating Systems"
+
 Reddit
 https://www.reddit.com/r/linuxmemes/.rss Reddit "~Linux memes" 
 https://www.reddit.com/r/unixporn/.rss Reddit "~Unixporn"
 https://www.reddit.com/r/vim/.rss Reddit "~Vim"
 https://www.reddit.com/r/LetsNotMeet/.rss Reddit "~LetsNotMeet"
+https://old.reddit.com/r/linux/.rss?utm_source=reddit&utm_medium=usertext&utm_name=linux&utm_content=t1_cxtftte  Reddit "~Linux"
 
+Other
+https://www.linuxjournal.com/node/feed "~Linux Journal" "Other"
+https://bbs.archlinux.org/extern.php?action=feed&fid=23&type=atom "~Archlinux Newbie Corner"  "Other"
+https://lukesmith.xyz/rss.xml "~Luke Smith" "Other"
+https://static.fsf.org/fsforg/rss/news.xml  "~ FSF" "Other"
+https://xkcd.com/rss.xml "~xkcd" "Other"
 
 
 https://www.youtube.com/feeds/videos.xml?user=xarietjiji "~Xari"  "Youtube" "!"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOLBuf1DXEfdIccvGczNUzg "~LeStream"  "Youtube" "!"
+https://www.youtube.com/feeds/videos.xml?user=BenEater "~Ben Eater"  "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=aragusea "~Adam Ragusea" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=Computerphile "~Computerphile" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=h2h2productions "~Ethan and Hila" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eEGT06FrWFU6VBnPOR9lg "~Girlfriend Reviews" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=h3h3Productions "~h3h3Productions" "Youtube" "!"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCQALLeQPoZdZC4JNUboVEUg "~Jabrils" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC_i-uMpN1lEyuoUGDq-dajQ "~Le Raptor" "Youtube" "!"
-https://www.youtube.com/feeds/videos.xml?user=LinusTechTips "~Linus Tech Tips" "Youtube" "!"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCm9K6rby98W8JigLoZOh6FQ "~LockPickingLawyer" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=MentalOutlawStudios "~Mental Outlaw" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtHaxi4GTYDpJgMSGy7AeSw "~Michael Reeves" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCUmLRMERmJrmUtgnbFfknAg "~Randy" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=SardocheLol "~Sardoche" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=shane "~shane" "Youtube" "!"
-https://www.youtube.com/feeds/videos.xml?user=SomeOrdinaryGamers "~SomeOrdinaryGamers" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?user=Techmoan "~Techmoan" "Youtube" "!"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCcueC-4NWGuPFQKzQWn5heA "~Victor Ferry" "Youtube" "!"
+
+

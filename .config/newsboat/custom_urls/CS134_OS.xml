@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>CS 134: Operating Systems</title>
+
+<item>
+  <title>CS 134 OS—2.1 What will you be learning?
+</title>
+  <link>https://www.youtube.com/watch?v=7cQ1PNVYgxw
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—2.2 System Calls
+</title>
+  <link>https://www.youtube.com/watch?v=ESapRIn1iCI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—2.3 Standard Libraries
+</title>
+  <link>https://www.youtube.com/watch?v=ktSnEl8Zw6E
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—2.4 Why is OS design hard?
+</title>
+  <link>https://www.youtube.com/watch?v=PklOm84L1_4
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—2.5 Emulators
+</title>
+  <link>https://www.youtube.com/watch?v=_rnuFWmOWQU
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—2.6 X86 Instruction Set
+</title>
+  <link>https://www.youtube.com/watch?v=Gx6qjKALSXo
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—2.7 GCC Calling Conventions
+</title>
+  <link>https://www.youtube.com/watch?v=WdnwOhN0LJE
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—Tutorials: GDB
+</title>
+  <link>https://www.youtube.com/watch?v=moBzfBaGbhI
+</link>
+  </item>
+<item>
+  <title>Tutorial: Bash
+</title>
+  <link>https://www.youtube.com/watch?v=7F_Hr9Q2rS4
+</link>
+  </item>
+<item>
+  <title>Tutorial: Vim
+</title>
+  <link>https://www.youtube.com/watch?v=_BYF9VhNrk8
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—Tutorials: GDB
+</title>
+  <link>https://www.youtube.com/watch?v=moBzfBaGbhI
+</link>
+  </item>
+<item>
+  <title>Tutorial: Bash
+</title>
+  <link>https://www.youtube.com/watch?v=7F_Hr9Q2rS4
+</link>
+  </item>
+<item>
+  <title>Tutorial: Vim
+</title>
+  <link>https://www.youtube.com/watch?v=_BYF9VhNrk8
+</link>
+  </item>
+<item>
+  <title>Tutorial: SSH
+</title>
+  <link>https://www.youtube.com/watch?v=3gKOPXvLvGE
+</link>
+  </item>
+<item>
+  <title>Tutorial: Tmux
+</title>
+  <link>https://www.youtube.com/watch?v=ReOJNFFeqbc
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—Tutorials: Git branching
+</title>
+  <link>https://www.youtube.com/watch?v=xd-Ikiknjv0
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—4.1 Shell
+</title>
+  <link>https://www.youtube.com/watch?v=xCySbqj9BKI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—4.2 OS Organization
+</title>
+  <link>https://www.youtube.com/watch?v=9EgfTGOT5co
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—4.3 Address Spaces
+</title>
+  <link>https://www.youtube.com/watch?v=DlxuT7Lxzfs
+</link>
+  </item>
+<item>
+  <title>S 134 OS—4.4 Timeslicing
+</title>
+  <link>https://www.youtube.com/watch?v=YiGAhgAWqDM
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—Tutorial: SSH Keys
+</title>
+  <link>https://www.youtube.com/watch?v=JAHRqgyHmf0
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—5.1 Multiple Process in Memory
+</title>
+  <link>https://www.youtube.com/watch?v=tVGpk1mIEHY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—5.2 Separate Address Spaces
+</title>
+  <link>https://www.youtube.com/watch?v=PIaO2fuQp5A
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—5.3 Parts of a Process' Address Space
+</title>
+  <link>https://www.youtube.com/watch?v=rhSuGBp9wls
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Segmentation
+</title>
+  <link>https://www.youtube.com/watch?v=vKMBA9bEgQ4
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—Tutorial: SSH Keys
+</title>
+  <link>https://www.youtube.com/watch?v=JAHRqgyHmf0
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Segmentation on x86
+</title>
+  <link>https://www.youtube.com/watch?v=iqj3r0pKZA8
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Segmentation
+</title>
+  <link>https://www.youtube.com/watch?v=vKMBA9bEgQ4
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—5.4 Paging
+</title>
+  <link>https://www.youtube.com/watch?v=VdtPTv4u0SE
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—5.5 Implementing Paging
+</title>
+  <link>https://www.youtube.com/watch?v=Fkqe4wj8ba4
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—5.6 Multi-level page tabes
+</title>
+  <link>https://www.youtube.com/watch?v=7Gzos3S-uO0
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—5.7 Paging on x86
+</title>
+  <link>https://www.youtube.com/watch?v=dn55T2q63RU
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—6: Page Faults
+</title>
+  <link>https://www.youtube.com/watch?v=SaYN6DrT58U
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—6: JOS Virtual Page Table
+</title>
+  <link>https://www.youtube.com/watch?v=xTh2vqcmZq4
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—6: JOS Memory Layout
+</title>
+  <link>https://www.youtube.com/watch?v=SNT99DDo2gg
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—6: xv6 First Process
+</title>
+  <link>https://www.youtube.com/watch?v=RxpIyP6C-gg
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Segmentation & Paging
+</title>
+  <link>https://www.youtube.com/watch?v=plAzl_tMY6I
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Segmentation & Paging on x86
+</title>
+  <link>https://www.youtube.com/watch?v=U0lC_auacXM
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—6: xv6 Memory layout
+</title>
+  <link>https://www.youtube.com/watch?v=-CtLGexduCM
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—6: Paging HW: On-Demand Paging
+</title>
+  <link>https://www.youtube.com/watch?v=97wCKf1XIvQ
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7 Paging HW: Copy-On-Write Fork
+</title>
+  <link>https://www.youtube.com/watch?v=ViUwLytKzTY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Virtual Memory
+</title>
+  <link>https://www.youtube.com/watch?v=x-cZTBWCpKI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—8: Page Faults
+</title>
+  <link>https://www.youtube.com/watch?v=kSZnmNLYEsM
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—8: Traps
+</title>
+  <link>https://www.youtube.com/watch?v=JcIKjg5SFKg
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—8: Interrupts
+</title>
+  <link>https://www.youtube.com/watch?v=qf6YORG9u84
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—8: DMA
+</title>
+  <link>https://www.youtube.com/watch?v=KNaUn6qRjmk
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—8: System Calls in xv6
+</title>
+  <link>https://www.youtube.com/watch?v=ax26PKg9fCk
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—8: Interrupts in xv6
+</title>
+  <link>https://www.youtube.com/watch?v=tafn32Ef9j4
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Virtual Memory
+</title>
+  <link>https://www.youtube.com/watch?v=x-cZTBWCpKI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7 Paging HW: Copy-On-Write Fork
+</title>
+  <link>https://www.youtube.com/watch?v=ViUwLytKzTY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Paging HW: Demand Paging
+</title>
+  <link>https://www.youtube.com/watch?v=eZm8U-VoNNc
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Paging HW: Distributed Shared Memory
+</title>
+  <link>https://www.youtube.com/watch?v=geSjOP1L5ws
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Memory-Mapped Files
+</title>
+  <link>https://www.youtube.com/watch?v=nPIhoJ6lKeQ
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—7: Dynamic Stack Pages
+</title>
+  <link>https://www.youtube.com/watch?v=GjZociZcPcI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9: Locks in xv6
+</title>
+  <link>https://www.youtube.com/watch?v=pLgd-2gZikw
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9:  Locks
+</title>
+  <link>https://www.youtube.com/watch?v=y-XiNI4OTH8
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9: Deadlock
+</title>
+  <link>https://www.youtube.com/watch?v=PL66OZdjr70
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9: Locks in xv6
+</title>
+  <link>https://www.youtube.com/watch?v=pLgd-2gZikw
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9:  Conclusion
+</title>
+  <link>https://www.youtube.com/watch?v=6_JNV9gQ9Os
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—10:  Sleep & Wakeup
+</title>
+  <link>https://www.youtube.com/watch?v=h0C68GGD3UQ
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9:  processes in xv6
+</title>
+  <link>https://www.youtube.com/watch?v=oQjolyqfUa8
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9:  Scheduling
+</title>
+  <link>https://www.youtube.com/watch?v=cWO6C0Bvdbs
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9:  exit in xv6
+</title>
+  <link>https://www.youtube.com/watch?v=8KkB4Bmc9xY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9:  Threads
+</title>
+  <link>https://www.youtube.com/watch?v=KeaiTwVh5UY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—9:  Processes
+</title>
+  <link>https://www.youtube.com/watch?v=jOwLws_bmKA
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—12:  Filesystems
+</title>
+  <link>https://www.youtube.com/watch?v=jpKpbyYjAWU
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—13:  Solid State Drives
+</title>
+  <link>https://www.youtube.com/watch?v=Kr8yymG8s3c
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—13:  Disk scheduling
+</title>
+  <link>https://www.youtube.com/watch?v=EaIdGMKtr5o
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—13:  Disks
+</title>
+  <link>https://www.youtube.com/watch?v=npB_CAqFlmA
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—13:  xv6 Filesystem
+</title>
+  <link>https://www.youtube.com/watch?v=S1158OShz44
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—15:  Crash Recovery and Logging in xv6
+</title>
+  <link>https://www.youtube.com/watch?v=3zDkGNvP6y8
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—15:  Crash Recovery and Logging
+</title>
+  <link>https://www.youtube.com/watch?v=LfwdaodStxw
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—16:  Ext3 Filesystem—Ordered data
+</title>
+  <link>https://www.youtube.com/watch?v=I0mMqEjzaxg
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—16:  Ext3 Filesystem—Intro
+</title>
+  <link>https://www.youtube.com/watch?v=f54kfArd82Y
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—16:  Ext3 Filesystem—Journaled data
+</title>
+  <link>https://www.youtube.com/watch?v=arLYI91jxjI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—16:  Ext3 Filesystem—Ordered data
+</title>
+  <link>https://www.youtube.com/watch?v=I0mMqEjzaxg
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—18:  VM Primitives—Conclusion
+</title>
+  <link>https://www.youtube.com/watch?v=tlFLbBIHsa4
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—18:  VM Primitives
+</title>
+  <link>https://www.youtube.com/watch?v=nEhj7g8MLeY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—18:  VM Primitives—Concurrent Garbage Collection
+</title>
+  <link>https://www.youtube.com/watch?v=5Hm8hZLMdQk
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—18:  VM Primitives—Generational Garbage Collection
+</title>
+  <link>https://www.youtube.com/watch?v=Hym38ZF9CSo
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—18:  Garbage Collection
+</title>
+  <link>https://www.youtube.com/watch?v=a4MP6oclU58
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—19:  Exokernels-Microkernels
+</title>
+  <link>https://www.youtube.com/watch?v=tNbk6uNarmI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—19:  Exokernels-Exokernel
+</title>
+  <link>https://www.youtube.com/watch?v=C597w2a0Z1U
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—19:  Exokernels-Memory
+</title>
+  <link>https://www.youtube.com/watch?v=5PpTO3siD6Y
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—19:  Exokernels—Monolithic Kernels
+</title>
+  <link>https://www.youtube.com/watch?v=5jxujKJK784
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—19:  Exokernels-CPU
+</title>
+  <link>https://www.youtube.com/watch?v=nNOkg8FkvoY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—19:  Exokernels-IPC
+</title>
+  <link>https://www.youtube.com/watch?v=4tXCD80A6Ag
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—19:  Exokernels-Conclusion
+</title>
+  <link>https://www.youtube.com/watch?v=4y-8fWwGi1M
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—21:  Non-Scalable Locking: Modified ticket lock
+</title>
+  <link>https://www.youtube.com/watch?v=iKUbY52dTxY
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—21:  Non-Scalable Locking: MCS lock
+</title>
+  <link>https://www.youtube.com/watch?v=-yeXPUFos2M
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—21:  Non-Scalable Locking: Ticket lock
+</title>
+  <link>https://www.youtube.com/watch?v=hwQ0RPot38g
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—21:  Non-Scalable Locking: Multicore caching
+</title>
+  <link>https://www.youtube.com/watch?v=GDw6FkECdKU
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—21:  Non-Scalable Locking: Test-and-set spin lock
+</title>
+  <link>https://www.youtube.com/watch?v=3f1iVUw_iGk
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—21:  Non-Scalable Locking: Intro
+</title>
+  <link>https://www.youtube.com/watch?v=y_6IId-j4qM
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—22:  RCU—Intro
+</title>
+  <link>https://www.youtube.com/watch?v=--f3V-JLHt0
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—22:  RCU—Implementation
+</title>
+  <link>https://www.youtube.com/watch?v=5964Io_BoL0
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—22:  Read and Writer barriers
+</title>
+  <link>https://www.youtube.com/watch?v=sFaspnapia4
+</link>
+  </item>
+<item>
+  <title>Making of Lightboard videos
+</title>
+  <link>https://www.youtube.com/watch?v=S-rDH4O5CsI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—23:  Virtualization—Trap and Emluate
+</title>
+  <link>https://www.youtube.com/watch?v=EgXBwjqtZqw
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—23:  Virtualization
+</title>
+  <link>https://www.youtube.com/watch?v=6HqEJ7Xvpwo
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—23:  Virtualization—Dynamic Binary Translation
+</title>
+  <link>https://www.youtube.com/watch?v=HN1XtSZKPuA
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—23:  Virtualization—HW support
+</title>
+  <link>https://www.youtube.com/watch?v=S5oIJoIOdgg
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—24:  Dune
+</title>
+  <link>https://www.youtube.com/watch?v=Hy50xv4vM0M
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—24:  HW Virtualization
+</title>
+  <link>https://www.youtube.com/watch?v=3IsclQmEFuI
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—25:  OS Network Performance
+</title>
+  <link>https://www.youtube.com/watch?v=U4IGfRbA8TA
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—25:  IX
+</title>
+  <link>https://www.youtube.com/watch?v=mIUR-UL99PQ
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—25:  IX Performance and Summary
+</title>
+  <link>https://www.youtube.com/watch?v=eoVvFC_PE5w
+</link>
+  </item>
+<item>
+  <title>CS 134 OS—17:  ZFS
+</title>
+  <link>https://www.youtube.com/watch?v=tHHCypMJPrg
+</link>
+  </item>
+  </channel>
+</rss>

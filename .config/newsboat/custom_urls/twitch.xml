@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Twitch</title>
+
+    <item>
+      <title>Xari</title>
+      <link>https://www.twitch.tv/xari</link>
+    </item>
+    <item>
+      <title>Sardoche</title>
+      <link>https://www.twitch.tv/sardoche</link>
+    </item>
+    <item>
+      <title>Zerator</title>
+      <link>https://www.twitch.tv/zerator</link>
+    </item>
+    <item>
+      <title>Etoiles</title>
+      <link>https://www.twitch.tv/etoiles</link>
+    </item>
+    <item>
+      <title>LeStream</title>
+      <link>https://www.twitch.tv/lestream</link>
+    </item>
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 
 /* appearance */
 #if ROUNDED_CORNERS_PATCH
-static const unsigned int borderpx       = 0;   /* border pixel of windows */
+static const unsigned int borderpx       = 5;   /* border pixel of windows */
 static const int corner_radius           = 10;
 #else
 static const unsigned int borderpx       = 3;   /* border pixel of windows */
@@ -113,11 +113,14 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "monospace 14";
+static const char font[]                 = "monospace 10";
 #else
-static const char *fonts[]               = { "monospace:size=14" };
+//static const char *fonts[]               = { "Hurmit:size=8" };
+static const char *fonts[] = { "Cousine:size=14", "Font Awesome 5 Free Regular:size=14:style=bold:antialias=true:autohint=true","Font Awesome 5 Free Solid:size=14:style=bold:antialias=true:autohint=true"   };
+
+
 #endif // BAR_PANGO_PATCH
-static const char dmenufont[]            = "monospace:size=14";
+static const char dmenufont[]            = "Inconsolata Light  Monospace:size=14";
 
 static char c000000[]                    = "#000000"; // placeholder value
 
@@ -128,22 +131,22 @@ static char normbgcolor[]                = "#222222";
 static char normbordercolor[]            = "#444444";
 static char normfloatcolor[]             = "#db8fd9";
 
-static char selfgcolor[]                 = "#eeeeee";
+static char selfgcolor[]                 = "#c7c7c7";
 static char selbgcolor[]                 = "#6272a4";
 static char selbordercolor[]             = "#f8f8f2";
 static char selfloatcolor[]              = "#005577";
 
 static char titlenormbgcolor[]           = "#222222";
-static char titlenormfgcolor[]           = "#eeeeee";
+static char titlenormfgcolor[]           = "#c7c7c7";
 static char titlenormbordercolor[]       = "#444444";
 static char titlenormfloatcolor[]        = "#db8fd9";
 
 static char titleselbgcolor[]            = "#222222";
-static char titleselfgcolor[]            = "#eeeeee";
+static char titleselfgcolor[]            = "#c7c7c7";
 static char titleselbordercolor[]        = "#222222";
 static char titleselfloatcolor[]         = "#222222";
 
-static char tagsnormfgcolor[]            = "#f8f8f2";
+static char tagsnormfgcolor[]            = "#c7c7c7";
 static char tagsnormbgcolor[]            = "#282a36";
 static char tagsnormbordercolor[]        = "#444444";
 static char tagsnormfloatcolor[]         = "#db8fd9";
@@ -427,6 +430,7 @@ static const Rule rules[] = {
 	RULE(.wintype = WTYPE "SPLASH", .isfloating = 1)
 	RULE(.class = "Gimp", .tags = 1 << 4)
 	RULE(.class = "kitty", .isterminal = 1)
+	RULE(.class = "CoreShot", .isfloating = 1)  
 	#if SCRATCHPADS_PATCH
 	RULE(.instance = "spterm", .tags = SPTAG(0), .isfloating = 1)
 	#endif // SCRATCHPADS_PATCH
@@ -992,7 +996,7 @@ static Key keys[] = {
 	{ MODKEY|Mod5Mask|Mod1Mask,     XK_Tab,        rotatelayoutaxis,       {.i = -4 } },   /* flextile, 4 = secondary stack axis */
 	{ MODKEY|ControlMask,           XK_Return,     mirrorlayout,           {0} },          /* flextile, flip master and stack areas */
 	#endif // FLEXTILE_DELUXE_LAYOUT
-	//{ MODKEY,                       XK_p,      setlayout,              {0} },
+	{ MODKEY,                       XK_p,          spawn,                  {.v = dmenucmd} },
 	{ MODKEY|ShiftMask,             XK_space,      togglefloating,         {0} },
 	#if MAXIMIZE_PATCH
 	{ MODKEY|ControlMask|ShiftMask, XK_h,          togglehorizontalmax,    {0} },
@@ -1020,7 +1024,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_y,          togglefakefullscreen,   {0} },
 	#endif // FAKEFULLSCREEN_CLIENT_PATCH
 	#if FULLSCREEN_PATCH
-	{ MODKEY,             XK_f,          fullscreen,             {0} },
+	{ MODKEY,             XK_f,          togglefullscr,             {0} },
 	#endif // FULLSCREEN_PATCH
 	#if STICKY_PATCH
 	{ MODKEY|ShiftMask,             XK_s,          togglesticky,           {0} },
